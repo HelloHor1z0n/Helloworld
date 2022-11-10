@@ -1,8 +1,11 @@
-//int ch = 0;
-	//while ((ch = getchar()) != EOF)//EOF=end of file文件结束标志------本质-1
-	//{
-	//	putchar(ch);
-	//}
+#include <stdio.h>
+int main()
+{
+	int ch = 0;
+	while ((ch = getchar()) != EOF)//EOF=end of file文件结束标志------本质-1
+	{
+		putchar(ch);
+	}
 	int ret = 0;
 	int ch = 0;
 	char password[20] = { 0 };
